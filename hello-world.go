@@ -1,8 +1,10 @@
 package main
 
-import fmt "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main () {
-	const PI = 3.14
-	fmt.Print(PI)
+	fmt.Print(math.MaxFloat32)
 }
