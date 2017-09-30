@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main () {
-	fmt.Print(math.MaxFloat32)
+	var a = 65
+	b := string(a)
+	fmt.Printf(b)
 }
